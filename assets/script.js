@@ -2,17 +2,17 @@
 function showForecast() {
 
 //jquery ID selectors
-  var cityEl = ('city-search');
-  var searchBtnEl= ('search-btn')
-  var currentWeatherEl = ('#current-weather');
-  var cityNameEl = ('city-name');
-  var weatherImgEl = ('weather-img');
-  var tempEl = ('temperature');
-  var windEl = ('wind');
-  var humidityEl = ('#umidity');
-  var fiveDayEl = ('five-day-section');
-  var historyEl = ('history');
-  var forecastEl = ('five-forecast');
+var cityEl = ('city-search');
+var searchBtnEl= ('search-btn')
+var currentWeatherEl = ('#current-weather');
+var cityNameEl = ('city-name');
+var weatherImgEl = ('weather-img');
+var tempEl = ('temperature');
+var windEl = ('wind');
+var humidityEl = ('#umidity');
+var fiveDayEl = ('five-day-section');
+var historyEl = ('history');
+var forecastEl = ('five-forecast');
 
 //weather API 
 var APIKey= "3b7f052753b0ae97b7bd2c8e430f87f6";
