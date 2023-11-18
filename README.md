@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a weather dashboard for users to search current and expected weather within the next 5 days. It is a useful tool for people to check the weather daily in their city, check the weather for areas they are traveling to, and check the weather where loved ones are at.
+This application is a weather dashboard for users to search current and expected weather within the next 5 days. It is a useful tool for people to check the weather for areas they are traveling to, theit local city, and check the weather where loved ones are at.
 
 ## How to Install
 
@@ -31,4 +31,3 @@ I worked on this on my own using resources such as the instructors, my peers, an
 ## Links
 
 Deployed:
-Github:

@@ -14,41 +14,39 @@
     <header class="container-fluid text-center bg-info text-white p-3">
         <h1 class="fs-1 font-sans-serif">Catch Me Outside!</h1>
     </header>
-<!--current weather element-->
-
-    <div class="container-fluid">
-        <div class="'row">
-        <div class="col-12 col-lg-2 bg-light">
-                <h3 class="fs-3 font-sans-serif fw-bold mt-2">Search Your City</h>
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-12 col-lg-2 bg-light">
+                <h3 class="fs-3 font-sans-serif fw-bold mt-2">Search Your City</h3>
                 <div class="input-group- mb-3">
                     <input type="text" id="city-search" class="form-control" placeholder="City">
                     <button class="input-group-text btn bg-info" id="search-btn">Search Your City</button>
+                </div>
+                <div id="history"></div>
             </div>
-            <div id="history"></div>
-        </div>
-        <div class="col-12 col-lg-10 border-start">
-            <div class="card m-3 d-none" id="current-weather">
-                <div class="card-body">
-                    <h3 class="fs-2 font-timesnewroman fw-bold align-middle" id="city-name">City</h3>
-                    <img id="weather-img" alt="">
-                    <p class="fs-4" id="temperature">Temperature</p>
-                    <p class="fs-4" id="wind">Wind</p>
-                    <p class="fs-4" id="humidity">Humidity</p>
+    <!--current weather element-->
+            <div class="col-12 col-lg-10">
+                <div class="row">
+                    <div class="card m-3 d-none" id="current-weather">
+                        <div class="card-body">
+                            <h3 class="fs-2 font-timesnewroman fw-bold align-middle" id="city-name">City</h3>
+                            <img id="weather-img" alt="">
+                            <p class="fs-4" id="temperature">Temperature</p>
+                            <p class="fs-4" id="wind">Wind</p>
+                            <p class="fs-4" id="humidity">Humidity</p>
+                        </div>
+                    </div>
+                </div>
+    <!--5 day forecast element--> 
+                <div class="row d-none" id="five-day-section">
+                    <div class="col-12"></div>
+                    <h3 class="fs-3 font-sans-serif  fw-bold">5 Day Forecast:</h3>
+                </div>
+    <!--5 day forecast cards-->
+                <div class="row" id="five-forecast"></div>
             </div>
         </div>
-<!--5 day forecast element--> 
-
-        <div class="row d-none" id="five-day-section">
-            <div class="col-12">
-            <h3 class="fs-3 font-sans-serif  fw-bold">5 Day Forecast:</h3>
-        </div>
-<!--5 day forecast cards-->
-
-        <div class="row" id="five-forecast"></div>
     </div>
-</div>
-</div> 
-</div>
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"
 integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
@@ -56,6 +54,6 @@ integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="ano
 integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
 crossorigin="anonymous"></script>
 <script src="./assets/script.js"></script>
-</body>
 
+</body>
 </html>
