@@ -94,7 +94,7 @@ $(searchBtnEl).on("click", function () {
 var searchHistory = JSON.parse(localStorage.getItem("search")) || [];
     console.log("search history: ", searchHistory);
 
-//function for lcoal storage and history
+//function for local storage and history
 function renderHistory(){
     historyEl.text("");
         for (i = 0; i <searchHistory.length; i ++ ) {
