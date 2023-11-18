@@ -2,9 +2,11 @@
 
 ## Description
 
-This application is a weather dashboard for users to search current and expected weather within the next 5 days. It is a useful tool for people to check the weather for areas they are traveling to, theit local city, and check the weather where loved ones are at.
+This application is a weather dashboard for users to search current and expected weather within the next 5 days. It is a useful tool for people to check the weather for areas they are traveling to, theit local city, and check the weather where loved ones are at. The challemges I faced was getting the weather to dsisplay and for it to not save the 5 day forecast of all prior searched cities. As well as getting the rows right and getting the classing correct in the code. I have a better appreaciation for JQUERY.
 
 ## How to Install
+
+Add the url to the browser and it will load the webpage. In the search bar on the page, add the name of the city and hit the 'search' button. The current weahter of the location you chose will be generated along with the 5 day forecast of that area. The cities you have searched before will be saved to local storage.
 
 ## User Story
 
@@ -30,4 +32,8 @@ I worked on this on my own using resources such as the instructors, my peers, an
 
 ## Links
 
-Deployed:
+Deployed: https://spartanchick619.github.io/Catch-Me-Outside-Weather-Dashboard/
+
+## Screenshot
+
+![Application screenshot](./screenshot.png)
