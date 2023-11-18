@@ -42,7 +42,7 @@ function getCurrentWeather(cityName){
 
 };
 
-//fucntion to retrieve 5 day forecast
+//function to retrieve 5 day forecast
 function getForecast(cityName){
     var requestURL= "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&apiid=" + APIKey + "&units=imperial";
     $.ajax({
